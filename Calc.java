@@ -8,7 +8,7 @@ class Main {
     System.out.println("0 ^ / =");                       
     
     int ans=0,a,b;System.out.println();
-                                                     //your choice  
+                                                     //your choice of operation
     System.out.println("Press '+' to add the two numbers");
     System.out.println("Press '-' to subtract the two numbers");
     System.out.println("Press 'X' to multiply the two numbers");
@@ -55,9 +55,9 @@ class Main {
                 ans = (int)Math.pow(a,b);
                 break;
         
-      default : System.exit(0);     //everyone can run out of options
+      default : System.exit(0);     //out of options
       }
     
-    System.out.println("\n\n"+ans);    //Amswer
+    System.out.println("\n\n"+ans);    //Answer
  }
 }
